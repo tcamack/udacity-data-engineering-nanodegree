@@ -9,7 +9,7 @@ Requirements:
 
 ## Project Write Up
 
-#### Overview
+### Overview
 
 The goal of this project was to create a 3NF, source of truth database for local economic and education information. This model was chosen to provide accurate and up-to-date information sourced from US government research and statistics. The data is hosted in a local PostgreSQL database instance and the ETL process is completed using a combination of Apache Airflow and standard Python/Pandas scripts to clean the data. The final database contains over 2.5M rows of data.
 
@@ -61,19 +61,19 @@ The goal of this project was to create a 3NF, source of truth database for local
 
 ![database-erd-img](./data/_resources/capstone-db-erd.png)
 
-#### Project goals
+### Project goals
 
 - Create a source-of-truth database
 - Find viable and accurate data sources
 - Merge data from various sources
 - Use Apache Airflow to create a PostgreSQL ETL pipeline
 
-#### This project practiced the following concepts:
+### This project practiced the following concepts:
 - Data collection and cleaning with Pandas
 - 3NF data modeling with PostgreSQL
 - ETL pipeline creation with Apache Airflow
 
-#### Data sources
+### Data sources
 - [Educational attainment by county](https://www.ers.usda.gov/data-products/county-level-data-sets/download-data/)
 - [Employment industry and wages by county](https://www.statsamerica.org/downloads/default.aspx)
   - [Individual state and county data available from the U.S. BEA](https://www.bea.gov/data/income-saving/personal-income-county-metro-and-other-areas)
@@ -89,40 +89,40 @@ The goal of this project was to create a 3NF, source of truth database for local
 
 ## Project Instructions
 
-#### Overview
+### Overview
 
 The purpose of the data engineering capstone project is to give you a chance to combine what you've learned throughout the program. This project will be an important part of your portfolio that will help you achieve your data engineering-related career goals.
 
 In this project, you can choose to complete the project provided for you, or define the scope and data for a project of your own design. Either way, you'll be expected to go through the same steps outlined below.
 
-###### Udacity Provided Project
+#### Udacity Provided Project
 In the Udacity provided project, you'll work with four datasets to complete the project. The main dataset will include data on immigration to the United States, and supplementary datasets will include data on airport codes, U.S. city demographics, and temperature data. You're also welcome to enrich the project with additional data if you'd like to set your project apart.
 
-###### Open-Ended Project
+#### Open-Ended Project
 
 If you decide to design your own project, you can find useful information in the Project Resources section. Rather than go through steps below with the data Udacity provides, you'll gather your own data, and go through the same process.
 
-#### Instructions
+### Instructions
 
 To help guide your project, we've broken it down into a series of steps.
 
-###### Step 1: Scope the Project and Gather Data
+#### Step 1: Scope the Project and Gather Data
 Since the scope of the project will be highly dependent on the data, these two things happen simultaneously. In this step, you’ll:
 
 - Identify and gather the data you'll be using for your project (at least two sources and more than 1 million rows). See Project Resources for ideas of what data you can use.
 - Explain what end use cases you'd like to prepare the data for (e.g., analytics table, app back-end, source-of-truth database, etc.)
 
-###### Step 2: Explore and Assess the Data
+#### Step 2: Explore and Assess the Data
 
 - Explore the data to identify data quality issues, like missing values, duplicate data, etc.
 - Document steps necessary to clean the data
 
-###### Step 3: Define the Data Model
+#### Step 3: Define the Data Model
 
 - Map out the conceptual data model and explain why you chose that model
 - List the steps necessary to pipeline the data into the chosen data model
 
-###### Step 4: Run ETL to Model the Data
+#### Step 4: Run ETL to Model the Data
 
 - Create the data pipelines and the data model
 - Include a data dictionary
@@ -131,7 +131,7 @@ Since the scope of the project will be highly dependent on the data, these two t
   - Unit tests for the scripts to ensure they are doing the right thing
   - Source/count checks to ensure completeness
 
-###### Step 5: Complete Project Write Up
+#### Step 5: Complete Project Write Up
 
 - What's the goal? What queries will you want to run? How would Spark or Airflow be incorporated? Why did you choose the model you chose?
 - Clearly state the rationale for the choice of tools and technologies for the project.
