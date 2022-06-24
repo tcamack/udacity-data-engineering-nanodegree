@@ -31,7 +31,7 @@ The goal of this project was to create a 3NF, source of truth database for local
       - The scope rapidly grew out of control
   - I settled on this project as the scope was within reason for the course, the data would still present challenges, and the data is important to many people
     - I obtained data from various sources, the majority of which are government organizations.
-    - I cleaned the data using Pandas to remove unnecessary columns such. For instance, the `institution_data.csv` dataset contained over 28,000 columns, of which only ~20 were not redacted in the original dataset for privacy reasons.
+    - I cleaned the data using Pandas to remove unnecessary columns. For instance, the `institution_data.csv` dataset contained over 28,000 columns, of which only ~20 were not redacted in the original dataset for privacy reasons.
     - I created the data pipelines based on the cleaned datasets. If the datasets weren't cleaned prior to being inserted into staging tables I would have been inserting over 8GB of data, of which only ~200MB was relevant to the project.
     - I used DBeaver to create my first ERD.
 
